@@ -9,7 +9,20 @@ import {
     View
 } from 'react-native';
 
+import Toast from '../../../node_modules/antd-mobile/lib/toast/index'
+import Carousel from '../../../node_modules/antd-mobile/lib/carousel/index'
+import Button from '../../../node_modules/antd-mobile/lib/button/index'
+
 export default class Information extends Component{
+    static navigationOptions = {
+        title: '资讯',//标题
+        headerStyle:{
+            backgroundColor:'rgba(255,255,255,1.0)'
+        },
+        headerTitleStyle:{
+            color:'rgba(48,192,255,1.0)'
+        },
+    };
     render() {
         return (
             <View style={styles.container}>

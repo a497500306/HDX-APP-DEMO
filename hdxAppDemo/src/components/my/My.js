@@ -10,6 +10,15 @@ import {
 } from 'react-native';
 
 export default class My extends Component{
+    static navigationOptions = {
+        title: '我',//标题
+        headerStyle:{
+            backgroundColor:'rgba(255,255,255,1.0)'
+        },
+        headerTitleStyle:{
+            color:'rgba(48,192,255,1.0)'
+        },
+    };
     render() {
         return (
             <View style={styles.container}>
