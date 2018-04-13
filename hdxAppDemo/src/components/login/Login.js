@@ -11,7 +11,7 @@ import {
     Alert
 } from 'react-native';
 
-
+ss
 import Tab from '../Tab'
 import Settings from '../../Tool/Settings'
 import Toast from'../../../node_modules/antd-mobile/lib/toast/index'
